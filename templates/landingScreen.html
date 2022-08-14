@@ -31,17 +31,31 @@
     </h2> -->
 
     <!-- Login area, sending info to login backend route -->
-    <form class="loginArea" method="POST">
+    <form class="loginArea" action="/login">
         <fieldset>
             <legend>Login Credentials</legend>
             <label for ="username"> Username:</label>
-            <input id="username" type="text" required><br><br>
+            <input id="username" type="text" required autofocus><br><br>
             <label for ="Password"> Password:</label>
             <input  id="password" type="password" name = "password" required ><br><br>
-            <input id="submitButton" type="submit" value="Submit">
+            <input id="submitButton" type="submit" value="Submit" method="POST">
             <input type="reset" value="Clear">
         </fieldset>
     </form>
+
+    <div>
+        <h2>
+            Need to create your account? Click Here!
+        </h2>
+
+        <form class="signUp" action="/create">
+            <fieldset>
+                <legend>Create Account</legend>
+                <input id="submitButtonCreate" type="submit" value="Create Account" method="POST">
+            </fieldset>
+        </form>
+    </div>
+    
 
 
 
