@@ -1,0 +1,2 @@
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer#:~:text=Open%20the%20Command%20Pallete%20by,Server%20to%20stop%20a%20server.
+https://www.w3schools.com/html/
